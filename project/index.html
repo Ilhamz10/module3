@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="img/Asset 1@3x 1.png" alt="#">
+                <ul>
+                    <li class="active">БАНК</li>
+                    <li>БИЗНЕС</li>
+                    <li>ИНВЕСТИЦИИ</li>
+                    <li>СТРАХОВАНИЕ</li>
+                    <li>МОБАЙЛ</li>
+                    <li>ПУТЕШЕСТВИЯ</li>
+                    <li>РАЗВЛЕЧЕНИЯ</li>
+                </ul>
+                <button class="btn">Log in</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <h1>Конвертер валют онлайн</h1>
+                <div class="convert-container">
+                    <div class="convert-from">
+                        <div>
+                            <input class="currency" checked type="radio" name="currency" id="rub">
+                            <label for="rub">RUB</label>
+                        </div>
+                        <div>
+                            <input class="currency" type="radio" name="currency" id="usd">
+                            <label for="usd">USD</label>
+                        </div>
+                        <div>
+                            <input class="currency" type="radio" name="currency" id="eur">
+                            <label for="eur">EUR</label>
+                        </div>
+                        <div>
+                            <input class="currency" type="radio" name="currency" id="gbp">
+                            <label for="gbp">GBP</label>
+                        </div>
+                    </div>
+                    <div class="convert-to">
+                        <div>
+                            <input class="currency" type="radio" name="currency2" id="rub1">
+                            <label for="rub1">RUB</label>
+                        </div>
+                        <div>
+                            <input class="currency" checked type="radio" name="currency2" id="usd1">
+                            <label for="usd1">USD</label>
+                        </div>
+                        <div>
+                            <input class="currency" type="radio" name="currency2" id="eur1">
+                            <label for="eur1">EUR</label>
+                        </div>
+                        <div>
+                            <input class="currency" type="radio" name="currency2" id="gbp1">
+                            <label for="gbp1">GBP</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <input type="number" id="from">
+                    <input type="number" id="to">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

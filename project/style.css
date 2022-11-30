@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: rgb(224, 224, 224);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 11px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 70%;
+}
+
+.active{
+    color: black;
+}
+
+li{
+    color: gray;
+}
+
+.btn{
+    padding: 10px;
+    border: 0;
+    background: white;
+    border-radius: 5px;
+}
+
+.main-content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.convert-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.convert-from{
+    display: flex;
+    width: 40%;
+}
+
+.convert-from div{
+    width: 25%;
+}
+
+.convert-to div{
+    width: 25%;
+}
+
+.convert-to{
+    display: flex;
+    width: 40%;
+}
+
+.currency{
+    display: none;
+}
+
+.currency~label{
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    border: 1px solid gray;
+    cursor: pointer;
+    text-align: center;
+}
+
+.currency:checked~label{
+    background: rgb(196, 0, 196);
+    color: white;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container input{
+    width: 40%;
+    padding: 50px 10px;
+    font-size: 2em;
+}
